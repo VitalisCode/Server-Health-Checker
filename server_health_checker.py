@@ -55,6 +55,7 @@ def main():
 
     print(f" Time: {current_time}\n")
 
+# function calls to check CPU, memory, and disk usage, and save the results to a log file
     check_cpu()
     check_memory()
     check_disk()
